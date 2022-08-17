@@ -1,0 +1,211 @@
+/* Style RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*NAV*/
+/*Categorias nav*/
+.header__nav{
+    font-family: 'Nunito', sans-serif;
+    color: antiquewhite;
+    text-decoration: none;
+    
+}
+
+/*Subcatergorias nav*/
+.header__servs{
+    font-family: 'Nunito', sans-serif;
+    color: antiquewhite;
+    text-decoration: none;
+    font-style: italic;
+}
+
+/* HEADER config */
+.header{
+    background-color: #000000;
+    align-items: baseline;
+    
+}
+
+.header__logo{
+    width: 10%;
+    display: inline-block;
+}
+
+.header__title{
+    color: #e7bd70;
+    display: inline-block;
+    width: 60%;
+    text-align: center;  
+    padding: 3%;
+    vertical-align:top;
+
+}
+
+.header__navmenu{
+    display: inline;
+    color:  #e7bd70;
+   
+}
+
+.header__navopt{
+    display: inline;
+}
+
+/* FOOTER config */
+.footer{
+    align-items: baseline;
+}
+
+.footer__logo{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.footer__redes{
+    display: inline-block;
+    margin: 5%;
+    vertical-align: top;
+}
+
+.footer__contacto{
+    display: inline-block;
+    margin: 5%;
+    vertical-align: top;
+}
+
+.footer__value{
+    color: #e7bd70;
+    font-family: 'Nunito', sans-serif;
+}
+
+.footer__wplogo{
+    width: 20%;
+
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+}
+
+
+/* FONTS */
+h1{ /*titulo Xbab*/
+    font-size: 2rem;
+    font-family: 'Belleza', sans-serif;
+ }
+ 
+ h2{ /*Subtitulos*/
+     font-family: 'Merriweather', serif;
+     text-align: center;
+ }
+ 
+ h3{ /* sub-subtitulos*/
+     font-size: 1rem;
+     font-family: 'Belleza', sans-serif;
+    }
+
+ /*Parrafos*/
+p{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin: 5%;
+}
+
+/* SECCION DE PARTICULARIDADES*/
+
+/*INDEX*/
+
+.index__servs{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.videoindex__video { 
+    width: 100vw;
+
+}
+
+/*NOSOTROS*/
+/*Imagen portafolio*/
+.img__portafolio{
+    margin-left: 15%;
+    margin-right: 15%;
+    orientation: center;
+}
+
+/*EVENTOS*/
+/*Imagenes eventos*/
+.img__sociales{
+    width: 100%;
+}
+
+.img__empresariales{
+    width: 100%;
+}
+
+/*EXP GOURMET*/
+/* Imagen Exp gourmet */
+.img__expgour{
+    width: 100%;
+}
+
+
+/*CLASES GASTRO*/
+/* Imagen Clases Gastro */
+.img__clases{
+    width: 100%;
+}
+
+/*CATALOGOS*/
+/*Imagen catalogos*/
+.img__catalogos{
+    margin-left: 15%;
+    margin-right: 15%;
+    orientation: center;
+}
+
+/*Banner Catalogos*/
+.img__banner{
+    width: 100%;
+}
+
+
+/* CONTRATACIONES */
+/*Imagen contrataciones*/
+.img__contrataciones{
+    width: 100%;
+}
+/* Formulario */
+.form__contacto{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* Tabla faqs */
+.table__faq{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/*Boton Cotizar*/
+.boton__cotizar{
+    
+    font-family: 'Belleza', sans-serif;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    background: black;
+    font-weight: bold;
+}
+
+.boton{
+    margin-left: 50%;
+    margin-right: 50%;
+    border-radius: 5px;
+    background: black;
+
+}
+
