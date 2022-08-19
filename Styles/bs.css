@@ -10,3 +10,9 @@
 #galeria img{
     width: 100%;
 }
+
+#galeria img:hover{
+    border: 5px solid white;
+}
+
+
