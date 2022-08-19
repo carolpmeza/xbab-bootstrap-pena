@@ -1,136 +1,120 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Xbab Cocina | Contrataciones</title>
     <link rel="shortcut icon" href="../media/favicon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Belleza&family=Caramel&family=Edu+NSW+ACT+Foundation&family=Merriweather:ital,wght@1,700&family=Nunito:wght@300&display=swap" rel="stylesheet">
-      <!-- ICONS BOOTSTRAP -->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-      <!--Bootstrap-->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <link rel="stylesheet" href="./Styles/bs.css">
-    <link rel="stylesheet" href="../Styles/style.css">
-</head>
-<body>
-
-   <!--Navigation-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+  <body>
+   
+    <!--Navigation-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Xbab Cocina Gourmet</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="./nosotros.html">Nosotros</a>
-          </li>
-        
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Servicios
-            </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="./eventos.html">Eventos</a></li>
-                <li><a class="dropdown-item" href="./exp_gourmet.html">Experiencia Gourmet</a></li>
-                <li><a class="dropdown-item" href="./clases_gastro.html">Clases Gastronomicas</a></li>
-              </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./catalogos.html">Catalogos</a>
-          </li>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Xbab Cocina Gourmet</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="./nosotros.html">Nosotros</a>
+        </li>
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Servicios
+          </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./eventos.html">Eventos</a></li>
+              <li><a class="dropdown-item" href="./exp_gourmet.html">Experiencia Gourmet</a></li>
+              <li><a class="dropdown-item" href="./clases_gastro.html">Clases Gastronomicas</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./catalogos.html">Catalogos</a>
+        </li>
 
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./contrataciones.html">Contrataciones</a>
-          </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./contrataciones.html">Contrataciones</a>
+        </li>
 
-        </ul>
-      </div>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
+<img class="img-fluid" src="../media/expchef.jpg" alt="informacion servicio">
 
+  <div class="container"> <!---formulario-->
+    <legend class="text-center">Tu evento en manos de los expertos</legend>
+    <h2 class="text-center">Formulario de cotizacion</h2>
+    <form class="row">
+        <div class="col-6">
+          <label for="nombre" class="form-label">Nombre y Apellido</label>
+          <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre completo">
+        </div>
 
-    <img class="img__contrataciones" src="../media/expchef.jpg" alt="informacion servicio">
+        <div class="col-6">
+          <label for="telefono-usuario" class="form-label">Telefono</label>
+          <input type="tel" class="form-control" id="tel" placeholder="Telefono">
+        </div>
 
-    <h2>Contrataciones</h2>
+        <div class="col-6">
+          <label for="email-usuario" class="form-label">Correo Electronico</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Correo Electronico">
+        </div>
 
+        <div class="col-6">
+          <label for="Suscribirme al NewsLetter" class="form-label">Suscribirme al NewsLetter</label>
+          <input type="checkbox" id="newsletter" name="news-usuario">
+        </div>
 
-    <form class="form__contacto">
-    <fieldset>
-    <legend>Tu evento en manos de los expertos</legend>
-                       
-            <div>
-                <label for="nombre">Nombre y Apellido</label>
-                <input type="text" name="nombre" id="nombre">
+        <div class="col-6">
+          <label for="contact-by" class="form-label">Metodo de contacto preferido:</label>
+
+          <label for="" class="form-label">Telefono</label>
+          <input type="radio" id="contacto" name="metodo-contacto" value="metodo-cont">
+            
+          <label for="">Correo electronico</label>
+          <input type="radio" id="contacto" name="metodo-contacto" value="metodo-cont"> <!---When you want user to pick just 1 value, use same name and value -->
+        </div>
+
+        <div class="col-6">
+          <label for="contact-source"class="form-label">Como te enteraste de nosotros?</label>
+          <select name="contact-source" id="contact-source">
+              <option value="source1">Instagram</option>
+              <option value="source2">Facebook</option>
+          </select>
+        </div>
+
+        <div class="col-12">
+          <label for="venue"class="form-label">Lugar del evento</label>
+          <input type="text" class="form-control">
+        </div>
+
+        <div>
+            <label for="servicio"class="form-label">Servicio deseado</label>
+            <select name="servicios" id="servicio">
+              <option value="select">Selecciona uno</option>
+              <option value="experiencia-gourmet">Experiencia Gourmet</option>
+              <option value="social">Evento Social</option>
+              <option value="empresarial">Evento Empresarial</option>
+              <option value="Clases">Clases Gastronomicas</option>
+            </select>
+        </div>
+
+            <div class="col-4">
+                <label for="fecha"class="form-label">Fecha</label>
+                <input type="date" class="form-control" name="fecha" id="fecha">
             </div>
 
-            <div>
-                <label for="telefono-usuario">Telefono</label>
-                <input type="tel" id="tel">
-            </div>
-
-            <div>
-                <label for="email-usuario">Correo Electronico</label>
-                <input type="email" id="email" name="email">
-            </div>
-
-            <div>
-                <label for="Suscribirme al NewsLetter">Suscribirme al NewsLetter</label>
-                <input type="checkbox" id="newsletter" name="news-usuario">
-            </div>
-
-            <div>
-                <label for="contact-by">Metodo de contacto preferido:</label>
-    
-                <label for="">Telefono</label>
-                <input type="radio" id="contacto" name="metodo-contacto" value="metodo-cont">
-    
-                <label for="">Correo electronico</label>
-                <input type="radio" id="contacto" name="metodo-contacto" value="metodo-cont"> <!---When you want user to pick just 1 value, use same name and value -->
-            </div>
-
-            <div>
-                <label for="contact-source">Como te enteraste de nosotros?</label>
-                <select name="contact-source" id="contact-source">
-                    <option value="source1">Instagram</option>
-                    <option value="source2">Facebook</option>
-                </select>
-            </div>
-        </fieldset>
-
-     <fieldset>
-    <legend>Cuentanos sobre el evento</legend>
-            <div>
-                <!---Direccion--->
-                <label for="venue">Lugar del evento</label>
-                <input type="text">
-            </div>
-
-            <div>
-                <label for="servicio">Servicio deseado</label>
-                <select name="servicios" id="servicio">
-                    <option value="select">Selecciona uno</option>
-                    <option value="experiencia-gourmet">Experiencia Gourmet</option>
-                    <option value="social">Evento Social</option>
-                    <option value="empresarial">Evento Empresarial</option>
-                    <option value="Clases">Clases Gastronomicas</option>
-                </select>
-            </div>
-
-            <div>
-                <label for="fecha">Fecha</label>
-                <input type="date" name="fecha" id="fecha">
-            </div>
-
-            <div>
-                <label for="hora">Horario</label>
+            <div class="col-4">
+                <label for="hora"class="form-label">Horario</label>
                 <select name="horario" id="horario">
                     <option value="1800">06:00 pm</option>
                     <option value="1900">07:00 pm</option>
@@ -139,123 +123,152 @@
                 </select>
             </div>
 
-            <div>
-                <label for="px">Numero de asistentes</label>
-                <input type="text">
-            </div>
+        <div class="col-4">
+            <label for="px"class="form-label">Numero de asistentes</label>
+            <input type="text" class="form-control">
+        </div>
 
-            <div>
-                <label for="evento">Nombre del evento</label>
-                <input type="text">
-            </div>
+        <div class="col-6">
+            <label for="evento"class="form-label">Nombre del evento</label>
+            <input type="text">
+        </div>
 
-            <div>
-                <label for="menu">Menu de su preferencia</label>
-                <select name="menu" id="menu">
-                    <option value="select">Selecciona uno</option>
-                    <option value="mexicano">Mexicano</option>
-                    <option value="frances">Frances</option>
-                    <option value="italiano">Italiano</option>
-                    <option value="mediterraneo">Mediterraneo</option>
-                    <option value="hindu">Hindu</option>
-                    <option value="japones">Japones</option>
-                    <option value="keto">Keto</option>
-                    <option value="personalizado">Personalizado</option>
-                </select>
-            </div>
+        <div class="col-6">
+          <label for="menu"class="form-label">Menu de su preferencia</label>
+            <select name="menu" id="menu">
+              <option value="select">Selecciona uno</option>
+              <option value="mexicano">Mexicano</option>
+              <option value="frances">Frances</option>
+              <option value="italiano">Italiano</option>
+              <option value="mediterraneo">Mediterraneo</option>
+              <option value="hindu">Hindu</option>
+              <option value="japones">Japones</option>
+              <option value="keto">Keto</option>
+              <option value="personalizado">Personalizado</option>
+            </select>
+        </div>
             
-            <div>
-                <label for="descripcion">Descripcion</label>
-                <textarea cols="30" rows="10" id="descripcion"></textarea>  
-            </div>
+        <div class="col-12">
+          <label for="descripcion"class="form-label">Descripcion</label>
+          <textarea class="form-control" cols="30" rows="10" id="descripcion"></textarea>  
+        </div>
 
-            <div>
-                <input type="submit" value="Limpiar todo">
-                <input type="submit" value="Solicitar cotizacion">
-            </div>
+        <div>
+          <input type="submit" value="Limpiar todo">
+          <input type="submit" value="Solicitar cotizacion">
+        </div>
 
-        </fieldset>
     </form>
-
-    <br> <br>
-    <h2>Preguntas Frecuentes</h2>
-    <table class="table__faq" border="1">
+  </div>
     
-        <thead>
-            <tr>
-                <th>Pregunta</th>
-                <th>Respuesta</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>¿En caso de cancelación hay devolución del dinero?</td>
-                <td>Solamente si la cancelación se hace 8 días antes de la fecha del evento.</td>
-            </tr>
-            <tr>
-                <td>¿Hay costo de envío?</td>
-                <td>Nuestros precios incluyen los gastos de transportación en la Ciudad de Monterrey y área metropolitana.</td>
-            </tr>
-            <tr>
-                <td>¿Con cuánto tiempo de anticipación llegan a mi domicilio?</td>
-                <td>Aproximadamente 60 minutos.</td>
-            </tr>
-            <tr>
-                <td>¿Cuál es el proceso al momento de llegar?</td>
-                <td>Al llegar el chef se acomodara en la cocina para empezar la preparación de los platillos. Ocupara un espacio en su refrigerador para mantener a temperatura los alimentos.</td>
-            </tr>
-            <tr>
-                <td>¿Qué necesitan de mi cocina?</td>
-                <td>Estufa, refrigerador y una barra para trabajar, horno y congelador.
-                    Los utensilios de cocina los llevamos nosotros.</td>
-            </tr>
-            <tr>
-                <td>¿Cuál es el número requerido de personas para una reservación?</td>
-                <td>Para un servicio de Experiencia Gourmet, al menos 6 y hasta 20 personas.</td>
-            </tr>
-        </tbody>
-    </table>
 
-
-
-
-
-
-
-
-
-
-
-
-    <div class="conteiner-fluid center text-center"> <!--Footer BS-->
-        <div class="row">
-      
-            <div class="col-sm-4">
-                <img src="../media/Xbablogodorado.png" alt="logo" class="img-fluid">
-            </div>
-      
-             <div class="col-sm-4">
-                <h3>Siguenos en redes sociales!</h3>
-                <ul>
-                    <li class="footer__value">Instagram</li>
-                    <li class="footer__value">Facebook</li> 
-                </ul>
-             </div>
-      
-            <div class="col-sm-4">
-                <h3>Contactanos</h3>
-                <ul>
-                    <li class="footer__value">Telefono</li>
-                    <li class="footer__value">Correo</li>
-                </ul>
-            </div>
-        
+    <h2 class="text-center">Preguntas Frecuentes</h2>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            ¿En caso de cancelación hay devolución del anticipo?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            ¿Hay costo de envío?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            ¿Con cuánto tiempo de anticipación llegan a mi domicilio?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            ¿Cuál es el proceso al momento de llegar?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            ¿Qué necesitan de mi cocina?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            ¿Cuál es el número requerido de personas para una reservación?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
         </div>
       </div>
 
-<!--Bootstrap JS-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    </div>
+    <div class="conteiner-fluid center text-center"> <!--Footer BS-->
+      <div class="row">
+    
+          <div class="col-sm-4">
+              <img src="../media/Xbablogodorado.png" alt="logo" class="img-fluid">
+          </div>
+    
+           <div class="col-sm-4">
+              <h3>Siguenos en redes sociales!</h3>
+              <ul>
+                  <li class="footer__value">Instagram</li>
+                  <li class="footer__value">Facebook</li> 
+              </ul>
+           </div>
+    
+          <div class="col-sm-4">
+              <h3>Contactanos</h3>
+              <ul>
+                  <li class="footer__value">Telefono</li>
+                  <li class="footer__value">Correo</li>
+              </ul>
+          </div>
+      
+      </div>
+    </div>
 
 
-</body>
+
+
+
+  <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
 </html>

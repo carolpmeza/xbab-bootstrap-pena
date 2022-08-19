@@ -3,38 +3,10 @@
 
 }
 
-/* FOOTER config */
-.footer{
-    align-items: baseline;
-}
-
-.footer__logo{
-    width: 30%;
-
-}
-
-.footer__redes{
-    display: inline-block;
-    margin: 5%;
-    vertical-align: top;
-}
-
-.footer__contacto{
-    display: inline-block;
-    margin: 5%;
-    vertical-align: top;
-}
-
-.footer__value{
-    color: #e7bd70;
-    font-family: 'Nunito', sans-serif;
-}
-
 #galeria{
-    margin: 0%;
+    margin: 5%;
 }
 
 #galeria img{
     width: 100%;
 }
-
